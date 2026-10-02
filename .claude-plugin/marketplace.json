@@ -1,0 +1,16 @@
+{
+  "name": "spiral-stop",
+  "owner": {
+    "name": "Murat Can Yuksel",
+    "url": "https://github.com/0xGondarxyz"
+  },
+  "description": "Stops fix loops: when the same error returns after 3 fix attempts, tells you and Claude to stop and rethink.",
+  "plugins": [
+    {
+      "name": "spiral-stop",
+      "source": "./",
+      "description": "Detects a fix loop (the same error after 3 fix attempts, or 3 'still broken' prompts), tells Claude to stop and name the wrong assumption, and shows a band above the prompt.",
+      "version": "0.1.0"
+    }
+  ]
+}
